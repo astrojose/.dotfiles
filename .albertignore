@@ -1,0 +1,17 @@
+# Ignore eclipse dir
+~/.*
+# Ignore git projects
+/.git/*
+
+# Include albert repos though
+#!/git/albert
+#!/git/aur-albert
+
+# However in the albert repo dont index source files
+#/git/albert/**.cpp
+
+# General ignores
+*node_modules/*
+bower_components
+*vendor/*
+/home/astrojose/Android/*

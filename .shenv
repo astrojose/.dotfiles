@@ -1,0 +1,21 @@
+# Java
+export JAVA_HOME=/opt/android-studio/jre
+export PATH=$PATH:$JAVA_HOME/bin
+#export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee' 
+
+# ANDROID ENVIRONMENT
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools 
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/bin
+export PATH=$PATH:/opt/android-studio/bin
+
+# MISC
+export PATH=$PATH:/opt/flutter/bin
+export PATH=$PATH:$HOME/genymotion
+export PATH=$PATH:/opt/node16.5/node16.5/bin
+#export PATH=$PATH:/opt/gradle-7.1.1/bin
+export PATH=$PATH:$HOME/.yarn/bin

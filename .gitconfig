@@ -1,0 +1,52 @@
+[user]
+	name = astrojose
+	email = jossey1918@gmail.com
+
+[alias]
+	aa = add .
+	s = status
+	
+	# Commiting
+	cm = commit -m
+	acm = commit -am
+	ci = commit
+
+	#Branches
+	br = branch
+	brd = branch -d 
+	
+	# Logs
+	l = log
+	lo = log --oneline
+	last = log -1 HEAD
+	
+	# Checkouts
+	cob = checkout -b
+	co = checkout
+	com = checkout main
+	cod = checkout develop
+	
+	# Tags
+	t = tag 	
+	ta = tag -a	
+	ts = show tag 	
+	td = tag -d	
+	
+	# Stashing
+	st = stash
+	stl = stash list
+	stp = stash pop
+
+	# Remote
+	ra = remote add
+	rr = remote remove 
+	rso = remote show origin
+
+[submodule]
+	recurse = true
+[core]
+	editor = vim
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
